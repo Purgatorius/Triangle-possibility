@@ -5,16 +5,12 @@ import java.util.Scanner;
  */
 public class Triangle-possibility {
 
-    /*
-    * Użytkownik podaje 3 wartości liczbowe typu int.
-    * Sprawdź, czy te podane 3 cyfry mogą być ramionami trójkąta*/
-
     public static void main (String args[])
 
 
 
     {
-        System.out.println("Program ten służy do sprawdzenia czy z podanych długości można zbudować trójkąt, należy podać długość boku a, b oraz c.");
+        System.out.println("Hey! Give me three lenghts and I'll tell you is it possible to make a triangle with them! ;)");
         int a, b, c;
         Scanner scanner = new Scanner(System.in);
         System.out.print("a=");
@@ -26,9 +22,9 @@ public class Triangle-possibility {
 
         if(a<b+c|b<a+c|c<a+b)
         {
-            System.out.println("Tak, z boków o takich wartościach można zbudować trójkąt.");
+            System.out.println("Yes! You can build the triangle with it!");
         }
         else
-            System.out.println("Nie, z boków o takich wartościach nie można zbudować trójkąta");
+            System.out.println("Oooops, no you can not build a triangle with this lenghts :(");
     }
 }
