@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Created by B4RT on 2017-05-10.
- */
 public class Triangle-possibility {
 
     public static void main (String args[])
