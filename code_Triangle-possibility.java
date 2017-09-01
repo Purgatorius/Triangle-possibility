@@ -10,7 +10,7 @@ public class Triangle-possibility {
 
 
     {
-        System.out.println("Hey! Give me three lenghts and I'll tell you is it possible to make a triangle with them! ;)");
+        System.out.println("Hey! Give me three lenghts and I'll tell you is it possible to make a triangle with them!");
         int a, b, c;
         Scanner scanner = new Scanner(System.in);
         System.out.print("a=");
@@ -25,6 +25,6 @@ public class Triangle-possibility {
             System.out.println("Yes! You can build the triangle with it!");
         }
         else
-            System.out.println("Oooops, no you can not build a triangle with this lenghts :(");
+            System.out.println("Oooops, no you can not build a triangle with this lenghts.");
     }
 }
