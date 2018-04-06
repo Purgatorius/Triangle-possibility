@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class Triangle-possibility {
 
     public static void main (String args[])
-
-
-
     {
         System.out.println("Hey! Give me three lenghts and I'll tell you is it possible to make a triangle with them!");
         int a, b, c;
